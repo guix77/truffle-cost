@@ -46,6 +46,6 @@ To have the price in fiat, as well, add an option 'USD', 'EUR', 'RUR' or 'GBP':
 
 ## Donations
 
-Donations are warmly accepted if you use and like this project:
+Donations in Ethereum and / or tokens are warmly accepted if you use and like this project:
 
     0x3e486ad2ca1e5b4a9b9088a1126f2961325aeaa7
