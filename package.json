@@ -7,7 +7,6 @@
   "author": "Guillaume Duveau <guillaume.duveau@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "crypto-price": "^0.0.6",
-    "web3": "^1.0.0-beta.37"
+    "node-fetch": "^2.3.0"
   }
 }

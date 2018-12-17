@@ -4,11 +4,9 @@ This module allows to log used gas of transactions in your Truffle tests, and op
 
 ![truffle-cost](https://raw.githubusercontent.com/guix77/truffle-cost/gh-pages/truffle-cost.png)
 
-## Requirements
-
-+ Truffle v5
-
 ## Usage
+
+Works with Truffle v5 and v4!
 
 ### 1) Install
 
@@ -16,14 +14,30 @@ This module allows to log used gas of transactions in your Truffle tests, and op
 
 (or *npm* instead of *yarn*)
 
-### 2) Edit truffle-config.js
+### 2) Edit truffle-config.js / truffle.js
 
-In the Mocha section use the reporter [mocha-truffle-reporter](https://github.com/guix77/mocha-truffle-reporter):
+In the *mocha* section (Truffle v5) use the reporter [mocha-truffle-reporter](https://github.com/guix77/mocha-truffle-reporter):
 
     mocha: {
       reporter: "mocha-truffle-reporter"
-      // timeout: 100000
     },
+
+For Truffle v4, just add a Mocha section, like the *networks* section:
+
+    module.exports = {
+      // See <http://truffleframework.com/docs/advanced/configuration>
+      // to customize your Truffle configuration!
+      networks: {
+        ganache: {
+          host: "127.0.0.1",
+          port: 7545,
+          network_id: "5777"
+        }
+      },
+      mocha: {
+        reporter: "mocha-truffle-reporter"
+      }
+    }
 
 ### 3) Use in your Truffle tests
 
