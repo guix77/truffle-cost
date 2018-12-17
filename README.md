@@ -2,6 +2,8 @@
 
 This module allows to log used gas and optionally price in fiat of transactions in your Truffle tests.
 
+![truffle-cost](https://raw.githubusercontent.com/guix77/truffle-cost/gh-pages/truffle-cost.png)
+
 ## Requirements
 
 + Truffle v5
@@ -10,8 +12,7 @@ This module allows to log used gas and optionally price in fiat of transactions 
 
 ### 1) Install
 
-    yarn add truffle-cost
-    yarn add mocha-truffle-reporter
+    yarn add truffle-cost mocha-truffle-reporter
 
 ### 2) Edit truffle-config.js
 
