@@ -27,6 +27,10 @@ In the Mocha section use the reporter [mocha-truffle-reporter](https://github.co
 
 ### 3) Use in your Truffle tests
 
+Add it on top of your .js test:
+
+    const truffleCost = require('truffle-cost');
+
 Use it like this for instance:
 
     result = await truffleCost.log(
