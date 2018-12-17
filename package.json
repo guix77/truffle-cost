@@ -1,0 +1,13 @@
+{
+  "name": "truffle-cost",
+  "version": "1.0.0",
+  "description": "Log transaction costs in Truffle tests, in gas and fiat",
+  "main": "index.js",
+  "repository": "https://github.com/guix77/truffle-cost",
+  "author": "Guillaume Duveau <guillaume.duveau@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-price": "^0.0.6",
+    "web3": "^1.0.0-beta.37"
+  }
+}
