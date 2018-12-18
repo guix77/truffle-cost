@@ -57,9 +57,9 @@ You can also use *from* without any problem and of course just await:
 
 The colors are defined in the (Mocha reporter)[https://github.com/guix77/mocha-truffle-reporter/blob/81a482e0f111b3404bd01c294fc40c3f29292407/lib/reporters/truffle-cost.js#L47] and depend on the used gas:
 
-+ < 100000: green
-+ > 4700000: red
-+ inbetween: yellow
++ below 100000: green
++ above 4700000: red
++ in-between: yellow
 
 ### Examples
 
