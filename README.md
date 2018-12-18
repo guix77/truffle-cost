@@ -10,7 +10,7 @@ Works with Truffle v5 and v4!
 
 ### 1) Install
 
-    yarn add truffle-cost mocha-truffle-reporter
+    yarn add truffle-cost
 
 (or *npm* instead of *yarn*)
 

@@ -1,12 +1,13 @@
 {
   "name": "truffle-cost",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Log transaction costs in Truffle tests, in gas and fiat",
   "main": "index.js",
   "repository": "https://github.com/guix77/truffle-cost",
   "author": "Guillaume Duveau <guillaume.duveau@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "mocha-truffle-reporter": "^1.0.1",
     "node-fetch": "^2.3.0"
   }
 }
