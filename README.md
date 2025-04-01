@@ -1,3 +1,5 @@
+**Now unmaintained, please use another library.**
+
 # Truffle cost
 
 This module allows to log used gas of transactions in your Truffle tests, and optionally price in fiat.
